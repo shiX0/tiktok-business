@@ -12,8 +12,10 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
-    "test": "vitest",
-    "lint": "tsc"
+    "test": "vitest run",
+    "test-watch": "vitest",
+    "lint": "tsc",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build"
   },
   "keywords": [],
   "author": "Pshishir",
