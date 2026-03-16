@@ -1,6 +1,6 @@
 import { HttpClient } from "./http.js";
 import { Auth } from "./services/auth.js";
-import { MediaService } from "./services/Media.js";
+import { MediaService } from "./services/media.js";
 import { Messaging } from "./services/messaging.js";
 import { WebhookService } from "./services/webhook.js";
 import type { TikTokConfig } from "./types/config.js";
