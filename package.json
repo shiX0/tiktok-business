@@ -1,5 +1,5 @@
 {
-  "name": "tiktok-business",
+  "name": "tiktok-business-messaging",
   "version": "0.0.1",
   "description": "TypeScript API Client for Tiktokbusiness API",
   "type": "module",
@@ -17,7 +17,14 @@
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run test && pnpm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "tiktok",
+    "business",
+    "messaging",
+    "api",
+    "client",
+    "typescript"
+  ],
   "author": "Pshishir",
   "license": "MIT",
   "packageManager": "pnpm@10.30.0",
