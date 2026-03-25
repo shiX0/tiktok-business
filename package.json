@@ -1,6 +1,6 @@
 {
   "name": "tiktok-business-messaging",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript API Client for Tiktokbusiness API",
   "type": "module",
   "main": "./dist/index.cjs",
